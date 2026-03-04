@@ -1,0 +1,12 @@
+Server starts, waiting for connection...
+Connected by ('127.0.0.1', 51985)
+Init OK: {'BATCH_SIZE': 1, 'NUM_RESTARTS': 10, 'RAW_SAMPLES': 1024, 'N_ITERATIONS': 5, 'MC_SAMPLES': 512, 'N_INITIAL': 5, 'SEED': 3, 'PROBLEM_DIM': 2, 'NUM_OBJS': 2}
+Initial Sobol X in [0,1]: tensor([[0.0685, 0.2245],
+        [0.6992, 0.0626],
+        [0.3754, 0.0304],
+        [0.1474, 0.3385],
+        [0.2702, 0.2726]], dtype=torch.float64)
+---- Initial Sample 1
+Send parameters: {'type': 'parameters', 'values': {'TargetSize': 0.307, 'TargetEccentricity': 0.225}}
+---- Initial Sample 2
+Send parameters: {'type': 'parameters', 'values': {'TargetSize': 0.37, 'TargetEccentricity': 0.063}}
